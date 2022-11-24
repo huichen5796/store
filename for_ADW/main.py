@@ -84,7 +84,7 @@ def findContour(image_bgr):
 
 #getImageFromCamera()
 
-image = cv2.imread('test_bild/test1.png', 1)
+image = cv2.imread('for_ADW/test_bild/test1.png', 1)
 image = cv2.resize(image, (512,512))
 cv2.imshow('original', image)
 
