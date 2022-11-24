@@ -1,6 +1,5 @@
 import cv2
 import numpy as np
-from copy import deepcopy
 
 
 def getImageFromCamera():
@@ -70,7 +69,7 @@ def findContour(image_bgr):
     
     # draw bounding boxes
     color = (0, 0, 255)
-    color_image = np.ones(image.shape, np.uint8)*255
+    color_image = np.ones(image_bgr.shape, np.uint8)*255
     for x, y, w, h in boundRect:
         # cv2.rectangle(image, (x,y),(x+w,y+h), color, thickness)
         triangle = np.array(
@@ -82,12 +81,17 @@ def findContour(image_bgr):
 
     return image_add
 
-#getImageFromCamera()
 
-image = cv2.imread('for_ADW/test_bild/test1.png', 1)
-image = cv2.resize(image, (512,512))
-cv2.imshow('original', image)
+def main():
 
-image = findContour(image)
-cv2.imshow('result',image)
-cv2.waitKey()
+    #getImageFromCamera()
+
+    image = cv2.imread('for_ADW/test_bild/test1.png', 1)
+    image = cv2.resize(image, (512,512))
+    cv2.imshow('original', image)
+
+    image = findContour(image)
+    cv2.imshow('result',image)
+    cv2.waitKey()
+
+main()

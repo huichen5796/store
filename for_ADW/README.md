@@ -1,6 +1,18 @@
-# Hier sind eine kurze Einleitung dafür, Objekts (Kreis, Linien...) im Bild zu detektieren. 
+# Hier ist ein paar Codes und eine kurze Einleitung für Porjekt 1 in der Vorlesung ADW
 
-## Eine kurze Einleitung
+Hallo Leute, 
+
+Wie in der Vorlesung von Holder erwähnt, werde ich den Teil des maschinellen Lernens (Projekt 1) unterstützen.
+
+In 'main.py' sind Codes für eine einfache Implementierung des Projekts. Wenn du noch keine Idee hast, kannst ausprobieren. Dies ist nur ein Beispielcode, die Leistung sollte schlecht sein.... Für das Testbild schlage ich vor, dass Nutzer statt Kreisen nur Wörter mit schwarzem Stift auf weißes Papier schreiben können. 
+
+Wenn du versuchen möchtest, handgeschriebene Kreise oder in Kreisen gezeichnete Wörter zu erkennen, findest du natürlich auch Methoden, wie z. B. geeignete morphologische Operationen, aber es wird empfohlen mit dem einfachsten Szenario zu beginnen.
+
+Wenn du Anregungen oder Fragen habst, kontaktierst mich einfach via <hui.chen@stud.uni-hannover.de>. Oder sage mir in der Vorlesung, ich helfe dir bei der Vorlesung mit Holger und Philip. Oder Schreiben in 'issue'(egal, ob von deiner Gruppe oder hier) ist auch möglich. Ich werde regelmäßig sehen.
+
+Viel Spaß und Erfolg! :-)
+
+## Eine kurze Einleitung dafür, Objekts (Kreis, Linien...) im Bild zu detektieren
 
 Um den Unterschied zwischen traditionellen und Deep-Learning-Methoden so deutlich wie möglich zu machen, stellen Sie ein einfaches Szenario vor:
 
@@ -81,6 +93,3 @@ Es gibt bereits etablierte Algorithmen zur optischen Zeichenerkennung:
 In 'OCR.py' sind Beispielcodes von den zwei OCR-Techniken zu finden. Außerdem sind Codes für Linien- und Kreiserkennung mittels OpenCV in 'detektion.py'. In 'modell.py' ist zwei Modelle für semantische Segmentation sowie die Codes zum Training. Bitte beachten Sie, dass die Codes für Training nur die wichtigsten Teile enthalten, für besseren Code siehe [hier](https://github.com/asagar60/TableNet-pytorch/tree/main/Training). In 'ellipse.py' werden die Codes zur Detektion von Eillipse gebietet, die Quelle ist [hier](https://scikit-image.org/docs/dev/auto_examples/edges/plot_circular_elliptical_hough_transform.html#sphx-glr-auto-examples-edges-plot-circular-elliptical-hough-transform-py). Wenn sich in Noden Polsterung befindet, könnten Sie möglicherweise versuchen den Noden zu erkennen, indem Sie sie als Blobs ('blobs.py', [Quelle](https://www.geeksforgeeks.org/find-circles-and-ellipses-in-an-image-using-opencv-python/)) sehen. In 'morpholo.py' sind Codes für morphologische Operationen. 
 
 Außerdem -> [How to train your custom model](https://github.com/JaidedAI/EasyOCR/blob/master/custom_model.md), [MNIST](http://yann.lecun.com/exdb/mnist/)
-
-Wenn Sie Anregungen oder Fragen haben, kontaktieren Sie mich einfach via <hui.chen@stud.uni-hannover.de>.
-Viel Spaß und Erfolg! :-)

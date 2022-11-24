@@ -58,7 +58,7 @@ def OCR_Easyocr(image):
     return result
 
 
-image = cv2.imread('test_bild/test4.png', 1)
+image = cv2.imread('for_ADW/test_bild/test4.png', 1)
 
 print('result of tesseract: ')
 print(OCR_Tesseract(image))
