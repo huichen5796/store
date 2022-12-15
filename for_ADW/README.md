@@ -2,7 +2,7 @@
 
 Hallo Leute, 
 
-Wie in der Vorlesung von Holder erwähnt, werde ich den Teil des maschinellen Lernens (Projekt 1) unterstützen.
+Wie in der Vorlesung von Holger erwähnt, werde ich den Teil des maschinellen Lernens (Projekt 1) unterstützen.
 
 In 'main.py' sind Codes für eine einfache Implementierung des Projekts. Wenn du noch keine Idee hast, kannst ausprobieren. Dies ist nur ein Beispielcode, die Leistung sollte schlecht sein.... Für das Testbild schlage ich vor, dass Nutzer statt Kreisen nur Wörter mit schwarzem Stift auf weißes Papier schreiben können. 
 
